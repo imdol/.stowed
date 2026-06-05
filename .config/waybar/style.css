@@ -64,7 +64,7 @@ button:hover {
 }
 
 #workspaces button.focused, #workspaces button.active {
-    background-color: #64727D;
+    background-color: #037c6e;
     box-shadow: inset 0 -3px #ffffff;
 }
 
@@ -118,7 +118,7 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    background-color: #000000;
 }
 
 #battery {
@@ -186,7 +186,7 @@ label:focus {
 }
 
 #backlight {
-    background-color: #90b1b1;
+    background-color: #2d3436;
 }
 
 #network {

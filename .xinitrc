@@ -1,2 +1,2 @@
-[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
-exec bspwm
+# [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
+# exec bspwm

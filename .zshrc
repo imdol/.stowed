@@ -2,8 +2,8 @@ PROMPT='%F{15}%n%F{9}@%B%F{15}%m%b:%F{15}%~%F{9}%# %F{15}'
 
 fpath=(~/.zsh $fpath)
 
-autoload -Uz compinit
-compinit
+autoload -Uz compinit && compinit
+autoload -Uz bashcompinit && bashcompinit
 
 if [ $(command -v xclip) ]; then
     alias c='xclip'
