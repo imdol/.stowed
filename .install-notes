@@ -1,5 +1,5 @@
 # init packages
-zsh pipewire pipewire-pulse pipewire-alsa wireplumber iwd git sway waybar wofi mako alacritty fastfetch openssh emacs vi linux-headers linux-firmware linux sudo base base-devel gnupg cmake feh docker unzip ttf-hack libnotify wget curl 
+zsh pipewire pipewire-pulse pipewire-alsa wireplumber iwd git sway waybar wofi mako alacritty fastfetch openssh emacs vi linux-headers linux-firmware linux sudo base base-devel gnupg cmake feh docker unzip ttf-hack libnotify wget curl brightnessctl acpi
 
 # creating user
 useradd -m -g users -G wheel -s /bin/{bash,zsh} anon
@@ -28,4 +28,3 @@ EnableIPv6=false
 systemctl enable systemd-networkd
 systemctl enable systemd-resolved
 systemctl enable iwd
-
