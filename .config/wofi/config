@@ -22,5 +22,3 @@ key_left=Ctrl-b
 key_right=Ctrl-f
 key_submit=Return
 key_exit=Ctrl-g
-
-style=./style.css
