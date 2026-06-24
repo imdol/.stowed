@@ -51,7 +51,7 @@ default_border pixel 2
 default_floating_border none
 smart_borders on
 # class                  border  background text    indicator child_border
-client.focused           #008080 #285577    #ffffff  #008080   #008080
+client.focused           #008080 #037c6e    #ffffff #008080   #008080
 client.focused_inactive  #5f676a #5f676a    #ffffff #5f676a   #5f676a
 client.unfocused         #222222 #222222    #888888 #222222   #222222
 client.urgent            #900000 #900000    #ffffff #900000   #900000
@@ -78,8 +78,7 @@ input * {
 #
 input "type:keyboard" {
       xkb_layout "us,es"
-      # xkb_options "grp:alt_shift_toggle"
-      xkb_options ctrl:nocaps
+      xkb_options "ctrl:nocaps,grp:rctrl_rshift_toggle"
 }
 # You can also configure each device individually.
 # Read `man 5 sway-input` for more information about this section.
